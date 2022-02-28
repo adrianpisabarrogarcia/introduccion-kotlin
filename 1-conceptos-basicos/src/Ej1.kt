@@ -11,7 +11,9 @@ fun main(){
     val opcion = readLine()!!.toInt()
 
     if (opcion < 6 && opcion > 0) {
+        print("Introduce un número:")
         val num1 = readLine()!!.toInt()
+        print("Introduce otro número:")
         val num2 = readLine()!!.toInt()
         when (opcion) {
             1 -> println("La suma es: ${num1 + num2}")

@@ -17,8 +17,8 @@ fun main(){
         println()
     }
     numero--
-    resta = 2
-    numEspacios = 0
+    resta = 3
+    numEspacios = numEspacios - 2
     for (i in 1..numero){
         for (j in 1..numEspacios){
             print(" ")
@@ -29,7 +29,7 @@ fun main(){
         for (j in 1..numEspacios){
             print(" ")
         }
-        numEspacios++
+        numEspacios--
         resta = resta + 2
         println()
     }
